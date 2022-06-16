@@ -24,9 +24,9 @@ if (janeiro || dezembro == true) {
 
 
 let nome = 'Rafael'
-let splits = nome.split('', 1)
+let letra = nome[0]
 
-if (nome.slice === 'R') {
+if (letra === 'R') {
   console.log('Começa coma letra R')
 } else {
   console.log('Não começa com a letra R')
@@ -36,7 +36,7 @@ let sobrenome = 'Monteiro';
 let lengths = sobrenome.length;
 
 
-if (lengths < 6 || splits === 'E') {
+if (lengths < 6 || nome === 'E') {
   console.log('Tem MAIS que 6 letras ou começa com a letra E')
 } else {
   console.log('Tem MENOS que 6 letras e NÃO começa com a letra E')
